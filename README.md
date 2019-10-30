@@ -4,4 +4,5 @@
 How to use ?
 
 UIAlertController *alert = [SKOpenMapObject getInstalledMapAppWithEndLocation:self.currentLocation currentLocation:coordinate];
-            [weakself presentViewController:alert animated:YES completion:nil];
+
+[self presentViewController:alert animated:YES completion:nil];
