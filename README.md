@@ -3,6 +3,6 @@
 
 How to use ?
 
-UIAlertController *alert = [SKOpenMapObject getInstalledMapAppWithEndLocation:self.currentLocation currentLocation:coordinate];
+UIAlertController *alert = [SKOpenMapObject getInstalledMapAppWithEndLocationBD09Map:coordinate GCJ02Map:coordinate1 WGS84:coordinate2 currentLocation:self.currentLocation];
 
-[self presentViewController:alert animated:YES completion:nil];
+[weakself presentViewController:alert animated:YES completion:nil];
